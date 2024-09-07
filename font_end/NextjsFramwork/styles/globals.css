@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('../assets/font/CabinetGrotesk-Extrabold.otf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('../assets/font/CabinetGrotesk-Bold.otf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('../assets/font/CabinetGrotesk-Medium.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CabinetGrotesk';
+  src: url('../assets/font/CabinetGrotesk-Regular.otf');
+  font-weight: 400;
+  font-style: normal;
+}
+  */
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 255, 255, 255;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+ 
+/* html { */
+  /* font-size:14 */
+  /* padding:0rem;
+  margin: 0rem;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #000000;
+  font-family: Source Han Sans CN;
+  letter-spacing: -0.3px;
+} */
+ 
+body{
+  /* background: rgba(242, 247, 235, 0.78); */
+  padding:0rem;
+  margin: 0rem;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #000000;
+  font-family: Source Han Sans CN;
+  letter-spacing: -0.3px;
+  font-size: 1rem;
+
+}
+
+.container1{
+  background: rgba(242, 247, 235, 0.78);
+  padding:0rem;
+  margin: 0rem;
+  font-weight: normal;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: #000000;
+  font-family: Source Han Sans CN;
+  letter-spacing: -0.3px;
+
+}
+
+
+
+
+@media (min-width: 1920px) {
+  html {
+    font-size:18px
+  }
+} 
+
+@media (max-width: 1440px) {
+  html {
+    font-size:14px
+  }
+} 
+
+@media (max-width: 640px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* .css-uio422-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+  border:2px solid  #4D9623;
+} */
